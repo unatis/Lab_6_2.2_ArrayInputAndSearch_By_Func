@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -29,9 +28,7 @@ public class Main {
 
     }
 
-    public static void TakeNames(String Names[]){
-
-        //String Names[] = new String[5];
+    public static void TakeNames(String Names[]){       
 
         Scanner scanner = new Scanner(System.in);
 
@@ -42,8 +39,6 @@ public class Main {
             Names[i] = scanner.nextLine();
 
         }
-
-       // return Names;
 
     }
 
